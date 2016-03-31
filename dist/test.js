@@ -28,8 +28,6 @@ describe('Calcula Tarifa', function () {
 
         it('Teste 1', function (done) {
 
-            (0, _expect2.default)(typeof _index2.default === 'undefined' ? 'undefined' : _typeof(_index2.default)).to.be('function');
-
             (0, _index2.default)({
                 inicio_dia: 1,
                 inicio_mes: 1,
@@ -54,8 +52,6 @@ describe('Calcula Tarifa', function () {
         });
 
         it('Teste 2', function (done) {
-
-            (0, _expect2.default)(typeof _index2.default === 'undefined' ? 'undefined' : _typeof(_index2.default)).to.be('function');
 
             (0, _index2.default)({
                 inicio_dia: 1,
@@ -85,8 +81,6 @@ describe('Calcula Tarifa', function () {
 
         it('Teste 1', function (done) {
 
-            (0, _expect2.default)(typeof _index2.default === 'undefined' ? 'undefined' : _typeof(_index2.default)).to.be('function');
-
             (0, _expect2.default)(_index2.default).withArgs({
                 inicio_dia: 2,
                 inicio_mes: 1,
@@ -106,8 +100,6 @@ describe('Calcula Tarifa', function () {
         });
 
         it('Teste 2', function (done) {
-
-            (0, _expect2.default)(typeof _index2.default === 'undefined' ? 'undefined' : _typeof(_index2.default)).to.be('function');
 
             (0, _expect2.default)(_index2.default).withArgs({
                 inicio_dia: 2,

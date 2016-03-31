@@ -18,8 +18,6 @@ describe('Calcula Tarifa', function() {
 
         it(`Teste 1`, function(done) {
 
-            expect(typeof handler).to.be('function');
-
             handler({
                 inicio_dia: 1,
                 inicio_mes: 1,
@@ -43,8 +41,6 @@ describe('Calcula Tarifa', function() {
         });
 
         it(`Teste 2`, function(done) {
-
-            expect(typeof handler).to.be('function');
 
             handler({
                 inicio_dia: 1,
@@ -73,8 +69,6 @@ describe('Calcula Tarifa', function() {
 
         it(`Teste 1`, function(done) {
 
-            expect(typeof handler).to.be('function');
-
             expect(handler).withArgs({
                 inicio_dia: 2,
                 inicio_mes: 1,
@@ -94,8 +88,6 @@ describe('Calcula Tarifa', function() {
         });
 
         it(`Teste 2`, function(done) {
-
-            expect(typeof handler).to.be('function');
 
             expect(handler).withArgs({
                 inicio_dia: 2,
